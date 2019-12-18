@@ -16,8 +16,8 @@ This should be a full composer package soon.
 
 The classes in the src directory are for you to update and adapt to your need.
 
--   if you use Laravel, you can copy the content of `src/config/config.php` to `config/services.php` and everything should work fine.
--   Open `src/VansoSMSClient.php` and update the `configure` method based on the instruction on the method docs.
+-   If you use Laravel, you can copy the content of `src/config/config.php` to `config/services.php` and everything should work fine.
+-   Open `src/VansoSMSClient.php` and update the `configure` method based on the instruction on the method docs. If you are not using Laravel, please make a child class of `src/VansoSMSClient.php` and override the `configire` method.
 
 Call the `\CamelCase\VansoSMS\VansoSMSClient::sendSMS` factory;
 
