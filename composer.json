@@ -2,6 +2,7 @@
     "name": "camelcasetechs/vansosms",
     "description": "An Api for Vanso SMS portal",
     "type": "library",
+    "version": "0.1.1",
     "keywords": [
         "vanso",
         "sms"

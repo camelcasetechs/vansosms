@@ -12,6 +12,12 @@ Check `composer.json` for dependencies.
 
 This should be a full composer package soon.
 
+## Installation
+
+For compose installation, run `composer require camelcasetechs/vansosms`
+
+For Laravel >=5.5 uses Package Auto-Discovery, so you don't need to manually add the ServiceProvider and Facades
+
 ## Usage
 
 The classes in the src directory are for you to update and adapt to your need.
