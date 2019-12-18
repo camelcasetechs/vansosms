@@ -1,7 +1,7 @@
 <?php
 /*
  * File: ApiBase.php
- * Project: aposhashamura-website
+ * Project: camelcasetechs/vansosms
  * File Created: Thursday, 19th September 2018 1:21:pm am
  * Author: Temitayo Bodunrin (temitayo@brandnaware.com)
  * -----

@@ -1,7 +1,7 @@
 <?php
 /*
  * File: VansoSMS.php
- * Project: aposhashamura-website
+ * Project: camelcasetechs/vansosms
  * File Created: Thursday, 19th September 2019 11:04:24 am
  * Author: Temitayo Bodunrin (temitayo@brandnaware.com)
  * -----

@@ -1,7 +1,7 @@
 <?php
 /*
  * File: config.php
- * Project: camelcase/vansoSMS
+ * Project: camelcasetechs/vansosms
  * File Created: Wednesday, 18th December 2019 9:37:08 am
  * Author: Temitayo Bodunrin (temitayo@brandnaware.com)
  * -----
