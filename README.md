@@ -4,13 +4,11 @@ An Api to Call the Vanso SMS [Gateway](https://www.interswitchgroup.com/)
 
 Vanso is an Interswitch company
 
-This code snippet assumes you are sending sms to Nigeria only.
+This library assumes you are sending sms to Nigeria only.
 
-This code snippet has no unit test embedded, it is highly important to test well.
+This library has no unit test embedded yet, it is highly important you test well.
 
 Check `composer.json` for dependencies.
-
-This should be a full composer package soon.
 
 ## Installation
 
@@ -25,10 +23,10 @@ For composer installation, run `composer require camelcasetechs/vansosms`
 
 The classes in the src directory are for you to update and adapt to your need.
 
--   If you use Laravel, you can copy the content of `src/config/config.php` to `config/services.php` and everything should work fine.
--   Open `src/VansoSMSClient.php` and update the `configure` method based on the instruction on the method docs. If you are not using Laravel, please make a child class of `src/VansoSMSClient.php` and override the `configire` method.
+-   If you use Laravel, and publish the config file as explained in installation, update config/vanso-sms.php and everything should work fine.
+-   If you are not using Laravel, please make a child class of `\CamelCase\VansoSMS\VansoSMSClient` and override the `configure` method.
 
-Call the `\CamelCase\VansoSMS\VansoSMSClient::sendSMS` factory;
+Call the `\CamelCase\VansoSMS\VansoSMSClient::sendSMS` factory or the derived class:
 
 ```php
 \CamelCase\VansoSMS\VansoSMSClient::sendSMS( string $phone, string $message );
