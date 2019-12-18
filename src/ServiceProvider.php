@@ -8,7 +8,7 @@
  * Last Modified: Wednesday, 18th December 2019 9:26:59 am
  * Modified By: Temitayo Bodunrin (temitayo@brandnaware.com)
  * -----
- * Copyright 2019, Brandnaware Nigeria
+ * Copyright 2019, CamelCase Technologies Ltd
  */
 
 namespace CamelCase\VansoSMS;
