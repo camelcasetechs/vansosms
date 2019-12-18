@@ -16,7 +16,10 @@ This should be a full composer package soon.
 
 For composer installation, run `composer require camelcasetechs/vansosms`
 
-For Laravel >=5.5 uses Package Auto-Discovery, so you don't need to manually add the ServiceProvider and Facades
+### Laravel
+
+-   For Laravel >=5.5 uses Package Auto-Discovery, so you don't need to manually add the ServiceProvider and Facades
+-   Run `php-artisan vendor:publish --tag=vansosms-config` to copy sample config file to `config/vanso-sms.php`
 
 ## Usage
 
