@@ -9,6 +9,13 @@
     ],
     "license": "MIT",
     "homepage": "https://camelcase.co",
+    "authors": [
+        {
+            "name": "Temitayo Bodunrin",
+            "email": "temitayo@camelcase.co",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=7.0",
         "illuminate/support": ">=5.7",
@@ -22,11 +29,11 @@
             "CamelCase\\VansoSMS\\": "src/"
         }
     },
-    "authors": [
-        {
-            "name": "Temitayo Bodunrin",
-            "email": "temitayo@camelcase.co",
-            "role": "Developer"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CamelCase\\VansoSMS\\ServiceProvider"
+            ]
         }
-    ]
+    }
 }

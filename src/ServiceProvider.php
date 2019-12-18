@@ -38,6 +38,6 @@ class ServiceProvider extends BaseProvider
     {
         $this->publishes([
             __DIR__ . '/config/config.php' => config_path('vanso-sms.php'),
-        ]);
+        ], 'config');
     }
 }
